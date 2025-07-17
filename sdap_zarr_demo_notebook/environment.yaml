@@ -1,0 +1,20 @@
+# conda env create -f environment.yaml
+name: czdt_notebook
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10.6
+  - xarray
+  - matplotlib
+  - cartopy
+  - numpy
+  - tabulate
+  - requests
+  - pandas
+  - owslib
+  - pillow
+  - ipykernel
+  - pyyaml
+  
+
