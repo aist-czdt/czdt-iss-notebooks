@@ -10,7 +10,7 @@ import requests
 from requests.compat import urlencode
 
 DT_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
-BASE_URL = 'http://a1df8549830ca4f5ca2c6c2c685a06b8-1809434828.us-west-2.elb.amazonaws.com'
+BASE_URL = 'http://sdap.czdt.smce.nasa.gov'
 NEXUS_URL = os.path.join(BASE_URL, 'nexus')
 INSITU_URL = os.path.join(BASE_URL, 'insitu', '1.0')
 
